@@ -17,8 +17,10 @@ BuildRequires: perl(Digest::HMAC_SHA1)
 BuildRequires: perl(Digest::SHA1)
 BuildRequires: perl(Encode)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::Warn)
 BuildRequires: perl(URI::Escape)
 BuildRequires: perl(Module::Build::Compat)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -36,7 +38,6 @@ OAUTH MESSAGES
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-
 %make
 
 %check
