@@ -1,15 +1,15 @@
 %define upstream_name    Net-OAuth
-%define upstream_version 0.27
+%define upstream_version 0.28
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.28
+Release:	1
 
 Summary:	An OAuth protocol response for an Request Token
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/Net-OAuth-0.28.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::Accessor)
@@ -68,3 +68,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Mon Apr 26 2010 cpan2dist 0.25-1mdv
 - initial mdv release, generated with cpan2dist
+
