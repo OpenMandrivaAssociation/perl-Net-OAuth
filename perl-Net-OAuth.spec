@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.28
-Release:	2
+Release:	3
 
 Summary:	An OAuth protocol response for an Request Token
 License:	GPL+ or Artistic
