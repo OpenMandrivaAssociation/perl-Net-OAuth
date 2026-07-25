@@ -1,15 +1,15 @@
 %define upstream_name    Net-OAuth
-%define upstream_version 0.28
+%define upstream_version 0.31
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.28
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	An OAuth protocol response for an Request Token
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/Net-OAuth-0.28.tar.gz
+Url:		https://github.com/keeth/Net-OAuth
+Source0:	https://cpan.metacpan.org/authors/id/R/RR/RRWO/Net-OAuth-0.31.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
