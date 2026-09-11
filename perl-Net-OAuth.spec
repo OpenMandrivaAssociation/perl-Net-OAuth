@@ -22,6 +22,7 @@ BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Test::Warn)
 BuildRequires:	perl(URI::Escape)
 BuildRequires:	perl(Module::Build::Compat)
+BuildRequires:	perl(LWP::UserAgent)
 
 BuildArch:	noarch
 
